@@ -15,6 +15,7 @@ class Cuenta:
         print("El saldo de la cuenta", self.socio, "es: ", self.saldo, "dolares")
     
     def transferir(self,cuenta,monto):
+        
         if cuenta.socio == self.socio:
             pass
         else:
