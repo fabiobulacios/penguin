@@ -17,6 +17,7 @@ class Dino:
     def decir_genero(self):
         print("Hola soy ", self.nombre, "y me identifico como", self.genero)
 
+
 rexi = Dino("Tiranosaurio Rex","Verde oscuro",4, "macho")
 
 rexi.saludar()
